@@ -21,9 +21,7 @@ env:
   APPLICATION_ID: ${{ secrets.APPLICATION_ID }}
   CLIENT_SECRET: ${{ secrets.CLIENT_SECRET }}
   DIRECTORY_ID: ${{ secrets.DIRECTORY_ID }}
-
 # ⬆️ 환경 변수를 설정합니다.
-
 permissions:
   contents: write
 
