@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F9A76073-9402-4D01-AA2E-29A819503E7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiApp", "src\ApiApp\ApiApp.csproj", "{BC33BDD2-499C-4E4D-A2B2-70C0347DD340}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC33BDD2-499C-4E4D-A2B2-70C0347DD340}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC33BDD2-499C-4E4D-A2B2-70C0347DD340}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC33BDD2-499C-4E4D-A2B2-70C0347DD340}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC33BDD2-499C-4E4D-A2B2-70C0347DD340}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BC33BDD2-499C-4E4D-A2B2-70C0347DD340} = {F9A76073-9402-4D01-AA2E-29A819503E7B}
+	EndGlobalSection
+EndGlobal
