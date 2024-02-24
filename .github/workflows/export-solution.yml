@@ -79,7 +79,6 @@ jobs:
           solution-target-folder: ${{ github.event.inputs.solutionPath}}/${{ github.event.inputs.solutionName }}
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           allow-empty-commit: true
-
       # ⬆️ 파워 플랫폼 솔루션 새 브랜치 커밋/푸시 액션
       - name: Branch solution
         uses: microsoft/powerplatform-actions/branch-solution@v1
@@ -88,6 +87,5 @@ jobs:
           solution-target-folder: ${{ github.event.inputs.solutionPath}}/${{ github.event.inputs.solutionName }}
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           allow-empty-commit: true
-
       # ⬆️ 파워 플랫폼 솔루션 새 브랜치 커밋/푸시 액션
 
