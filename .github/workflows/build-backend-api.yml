@@ -32,14 +32,12 @@ jobs:
           dotnet restore ./devops-in-a-day/ApiApp.sln
 
       # ⬆️ 패키지 인스톨 액션
-
       - name: Build
         shell: bash
         run: |
           dotnet build ./devops-in-a-day/ApiApp.sln --configuration Release
 
       # ⬆️ 앱 빌드 액션
-
       - name: Run tests
         shell: bash
         run: |
