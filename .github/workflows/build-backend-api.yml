@@ -1,13 +1,12 @@
 name: Build Backend API
-
 on:
   push:
-    branches:mkdir -p .github/workflows
-touch .github/workflows/build-backend-api.yml
+    branches:
       - main
       - 'feature/*'
     paths:
       - 'devops-in-a-day/src/ApiApp/**'
+
 
 # ⬆️ 이벤트 트리거 조건을 설정합니다.
 jobs:
