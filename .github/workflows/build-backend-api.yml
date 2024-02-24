@@ -1,4 +1,5 @@
 name: Build Backend API
+
 on:
   push:
     branches:
@@ -6,7 +7,6 @@ on:
       - 'feature/*'
     paths:
       - 'devops-in-a-day/src/ApiApp/**'
-
 
 # ⬆️ 이벤트 트리거 조건을 설정합니다.
 jobs:
